@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pydemoapp"
+version = "0.1.0"
+description = "App to fetch data from Open-Meteo API"
+authors = ["Vikas Negi <vikas.negi10@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+requests = "^2.31.0"
+json3 = "^1.0"
+pandas = "^2.1.1"
+tabulate = "^0.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
